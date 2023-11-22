@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Kanit:wght@300&family=Roboto:wght@300&family=Smooch+Sans:wght@100&family=Ubuntu&family=Urbanist:wght@300&display=swap');
+
+* {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+}
+
+
+.container{
+    height: 500px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: #1d1010;
+    margin-top: 100px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container #clock{
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    text-align: center;
+    /* margin: auto; */
+    padding: 15px 0;
+    font-size: 23px;
+    border-radius: 12px;
+}
+
